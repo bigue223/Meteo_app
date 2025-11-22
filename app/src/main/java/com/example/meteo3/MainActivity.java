@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
                     resultText.setText(text);
 
-                    // تحميل أيقونة الطقس
+
                     String iconCode = w.weather[0].icon;
                     String iconUrl = "https://openweathermap.org/img/wn/" + iconCode + "@2x.png";
 
